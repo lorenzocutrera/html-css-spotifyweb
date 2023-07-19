@@ -45,7 +45,7 @@ nav {
 }
 
 
-
+/* main */
 .main-scroll {
     height: calc(100vh - 100px);
     background-color: #141922;
@@ -56,10 +56,38 @@ nav {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.279);
 }
+.filter {
+    justify-content: center;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+    background-color: cadetblue;
+}
 
 
+
+
+/* footer */
 
 footer {
     height: 100px;
     background-color: #282828;
+}
+
+.left {
+    border: dashed white;
+    width: 20%;
+    height: 100%;
+}
+.center {
+    border: dashed white;
+    width: 60%;
+    height: 100%;
+}
+.right {
+    border: dashed white;
+    width: 20%;
+    height: 100%;
 }
