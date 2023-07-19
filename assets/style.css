@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+
+.d-flex {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+main {
+    height: calc(100vh - 100px);
+}
+
+/* sidebar */
+.sidebar {
+    height: calc(100vh - 100px);
+    width: 300px;
+    background-color: black;
+}
+
+nav {
+    border: dashed white;
+    height: 25%;
+}
+
+.playlist {
+    border: dashed white;
+    height: 65%;
+}
+
+.profilo {
+    border: dashed white;
+    height: 10%;
+}
+
+
+
+.main-scroll {
+    height: calc(100vh - 100px);
+    background-color: #141922;
+    width: 100%;
+}
+.header-main {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.279);
+}
+
+
+
+footer {
+    height: 100px;
+    background-color: #282828;
+}
