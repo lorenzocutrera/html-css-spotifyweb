@@ -33,8 +33,28 @@ main {
 }
 
 nav {
-    border: dashed white;
     height: 25%;
+    color: #707070;
+}
+
+.logo img{
+    width: 150px;
+    margin: 10px;
+}
+
+.menu img{
+    width: 30px;
+    color: #707070;;
+}
+.menu{
+    height: 33%;
+    align-items: center;
+    padding: 10px 0;
+}
+.menu a {
+    text-decoration: none;
+    color: #707070;
+    padding: 0px 10px;
 }
 
 .playlist {
@@ -46,6 +66,7 @@ nav {
     border: dashed white;
     height: 10%;
 }
+
 
 
 /* main */
@@ -69,22 +90,29 @@ nav {
     padding: 20px;
     gap: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .filter a{
     text-decoration: none;
     color: #7a7c81;
+    font-size: 10px;
 }
 
 .container{
+    height: 100%;
     width: 95%;
     margin: auto;
-    background-color: cadetblue;
 }
 .container p {
     color: #7a7c81;
+    font-size: 10px;
 }
 .container h2, h3{
     color: white;
+}
+.container h3 {
+    font-size: 15px;
+    line-height: 15px;
 }
 
 .row {
@@ -103,6 +131,11 @@ nav {
 .popular img{
     border-radius: 50%;
 }
+
+
+
+
+
 
 /* footer */
 
@@ -127,3 +160,39 @@ footer {
     width: 20%;
     height: 100%;
 }
+
+
+
+/* MEDIA QUERY */
+
+
+/* :::::: 768px :::::: */
+@media screen and (max-width: 768px) {
+    .card{
+        width: calc(100% / 12 * 3);
+    }
+}
+
+/* ::::: 576 :::::: */
+@media screen and (max-width: 576px) {
+    .card{
+        width: 50%;
+    }
+}
+
+/* ::::: 425 ::::: */
+@media screen and (max-width: 425px) {
+    .sidebar{
+        width: 50px;
+    }
+    .card{
+        width: 50%;
+    }
+} 
+
+/* 
+lg 1200
+md 768
+s 576
+xs 425
+ */
