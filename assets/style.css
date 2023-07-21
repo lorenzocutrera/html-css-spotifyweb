@@ -33,7 +33,6 @@ main {
 }
 
 nav {
-    height: 25%;
     color: #707070;
 }
 
@@ -61,15 +60,66 @@ nav {
     border: dashed white;
     height: 65%;
 }
+.playlist h3{
+    padding: 10px 0;
+}
+.crea{
+    color: #707070;
+    align-items: center;
+}
+
+.square{
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    background-color: #707070;
+    margin-right: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.fa-plus {
+    width: 100%;
+    color: black;
+}
+ul {
+    list-style: none;
+    color: #707070;
+    line-height: 30px;
+}
+
+.fa-circle-arrow-down{
+    color: #707070;
+}
 
 .profilo {
-    border: dashed white;
     height: 10%;
+    color: #707070;
+}
+
+.john{
+    align-items: center;
+    width: 100%;
+}
+.app{
+    width: 100%;
+}
+.user{
+    background-color: #707070;
+    padding: 2px;
+    border-radius: 50%;
+}
+.john h4{
+    color: white;
+    padding: 0px 10px;
+}
+
+hr{
+    margin: 10px 0;
 }
 
 
 
-/* main */
+/* MAIN */
 
 .main-scroll {
     height: calc(100vh - 100px);
