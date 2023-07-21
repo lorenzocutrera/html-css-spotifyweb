@@ -38,7 +38,7 @@ nav {
 
 .logo img{
     width: 150px;
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .menu img{
@@ -46,9 +46,9 @@ nav {
     color: #707070;;
 }
 .menu{
-    height: 33%;
     align-items: center;
     padding: 10px 0;
+    border-left: solid  #adff2f;
 }
 .menu a {
     text-decoration: none;
@@ -57,7 +57,6 @@ nav {
 }
 
 .playlist {
-    border: dashed white;
     height: 65%;
 }
 .playlist h3{
@@ -66,10 +65,11 @@ nav {
 .crea{
     color: #707070;
     align-items: center;
+    margin: 10px 0;
 }
 
 .square{
-    width: 50px;
+    width: 40px;
     aspect-ratio: 1 / 1;
     background-color: #707070;
     margin-right: 10px;
@@ -84,7 +84,7 @@ nav {
 ul {
     list-style: none;
     color: #707070;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .fa-circle-arrow-down{
@@ -133,6 +133,17 @@ hr{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.279);
     position: fixed;
+    align-items: center;
+}
+.header-main a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: 300px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: solid ;
+
 }
 
 .filter {
@@ -145,9 +156,16 @@ hr{
 .filter a{
     text-decoration: none;
     color: #7a7c81;
-    font-size: 10px;
+    font-size: 12px;
+    padding: 5px 0;
 }
-
+.filtro{
+    align-items: center;
+}
+.active{
+    width: 40px;
+    border-bottom: solid #adff2f;
+}
 .container{
     height: 100%;
     width: 95%;
@@ -187,7 +205,7 @@ hr{
 
 
 
-/* footer */
+/* FOOTER */
 
 footer {
     height: 100px;
@@ -196,19 +214,79 @@ footer {
 }
 
 .left {
-    border: dashed white;
     width: 20%;
     height: 100%;
+    justify-content: space-between;
 }
 .center {
-    border: dashed white;
     width: 60%;
     height: 100%;
 }
 .right {
-    border: dashed white;
     width: 20%;
     height: 100%;
+    align-items: center;
+}
+
+.left-lx {
+    align-items: center;
+    padding: 5px;
+}
+.info-lx {
+    justify-content: center;
+    padding: 5px;
+}
+.info-lx h4{
+    color: white;
+    font-size: 15px;
+}
+.info-lx p {
+    color: #707070;
+    font-size: 10px;
+}
+.left-rx {
+    align-items: center;
+}
+
+.fa-folder, .fa-heart{
+    color: #707070;
+    padding: 5px;
+}
+
+.center-top{
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.center-top i{
+    color: white;
+    padding: 20px;
+}
+.fa-circle-play{
+    scale: 200%;
+}
+.center-bottom{
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.barra{
+    width: 380px;
+    border: solid #707070;
+}
+.time {
+    margin: 10px;
+    font-size: 10px;
+}
+.minibarra{
+    width: 100px;
+    border: solid #707070;
+}
+
+.right i{
+    color: #707070;
+    padding: 10px;
 }
 
 
