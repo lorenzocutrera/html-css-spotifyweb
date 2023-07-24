@@ -7,6 +7,7 @@
 body {
     font-family: 'DM Sans', sans-serif;
 }
+
 /* utility */
 
 .d-flex {
@@ -36,20 +37,23 @@ nav {
     color: #707070;
 }
 
-.logo img{
+.logo img {
     width: 150px;
     margin: 10px 0px;
 }
 
-.menu img{
+.menu img {
     width: 30px;
-    color: #707070;;
+    color: #707070;
+    ;
 }
-.menu{
+
+.menu {
     align-items: center;
     padding: 10px 0;
-    border-left: solid  #adff2f;
+    border-left: solid #adff2f;
 }
+
 .menu a {
     text-decoration: none;
     color: #707070;
@@ -59,16 +63,18 @@ nav {
 .playlist {
     height: 65%;
 }
-.playlist h3{
+
+.playlist h3 {
     padding: 10px 0;
 }
-.crea{
+
+.crea {
     color: #707070;
     align-items: center;
     margin: 10px 0;
 }
 
-.square{
+.square {
     width: 40px;
     aspect-ratio: 1 / 1;
     background-color: #707070;
@@ -81,13 +87,14 @@ nav {
     width: 100%;
     color: black;
 }
+
 ul {
     list-style: none;
     color: #707070;
     line-height: 40px;
 }
 
-.fa-circle-arrow-down{
+.fa-circle-arrow-down {
     color: #707070;
 }
 
@@ -96,24 +103,27 @@ ul {
     color: #707070;
 }
 
-.john{
+.john {
     align-items: center;
     width: 100%;
 }
-.app{
+
+.app {
     width: 100%;
 }
-.user{
+
+.user {
     background-color: #707070;
     padding: 2px;
     border-radius: 50%;
 }
-.john h4{
+
+.john h4 {
     color: white;
     padding: 0px 10px;
 }
 
-hr{
+hr {
     margin: 10px 0;
 }
 
@@ -135,6 +145,7 @@ hr{
     position: fixed;
     align-items: center;
 }
+
 .header-main a {
     text-decoration: none;
     color: white;
@@ -142,7 +153,7 @@ hr{
     right: 300px;
     padding: 10px 40px;
     border-radius: 30px;
-    border: solid ;
+    border: solid;
 
 }
 
@@ -153,31 +164,39 @@ hr{
     justify-content: center;
     flex-wrap: wrap;
 }
-.filter a{
+
+.filter a {
     text-decoration: none;
     color: #7a7c81;
     font-size: 12px;
     padding: 5px 0;
 }
-.filtro{
+
+.filtro {
     align-items: center;
 }
-.active{
+
+.active {
     width: 40px;
     border-bottom: solid #adff2f;
 }
-.container{
+
+.container {
     height: 100%;
     width: 95%;
     margin: auto;
 }
+
 .container p {
     color: #7a7c81;
     font-size: 10px;
 }
-.container h2, h3{
+
+.container h2,
+h3 {
     color: white;
 }
+
 .container h3 {
     font-size: 15px;
     line-height: 15px;
@@ -187,16 +206,18 @@ hr{
     flex-wrap: wrap;
     margin: 20px 0px;
 }
-.card{
+
+.card {
     text-align: center;
     width: calc(100% / 6);
     padding: 10px;
 }
-.cover img{
+
+.cover img {
     width: 100%;
 }
 
-.popular img{
+.popular img {
     border-radius: 50%;
 }
 
@@ -218,10 +239,12 @@ footer {
     height: 100%;
     justify-content: space-between;
 }
+
 .center {
     width: 60%;
     height: 100%;
 }
+
 .right {
     width: 20%;
     height: 100%;
@@ -232,59 +255,70 @@ footer {
     align-items: center;
     padding: 5px;
 }
+
 .info-lx {
     justify-content: center;
     padding: 5px;
 }
-.info-lx h4{
+
+.info-lx h4 {
     color: white;
     font-size: 15px;
 }
+
 .info-lx p {
     color: #707070;
     font-size: 10px;
 }
+
 .left-rx {
     align-items: center;
 }
 
-.fa-folder, .fa-heart{
+.fa-folder,
+.fa-heart {
     color: #707070;
     padding: 5px;
 }
 
-.center-top{
+.center-top {
     height: 50%;
     justify-content: center;
     align-items: center;
 }
-.center-top i{
+
+.center-top i {
     color: white;
     padding: 20px;
 }
-.fa-circle-play{
+
+.fa-circle-play {
     scale: 200%;
 }
-.center-bottom{
+
+.center-bottom {
     height: 50%;
     justify-content: center;
     align-items: center;
     color: white;
 }
-.barra{
+
+.barra {
     width: 380px;
     border: solid #707070;
 }
+
 .time {
     margin: 10px;
     font-size: 10px;
 }
-.minibarra{
+
+.minibarra {
     width: 100px;
     border: solid #707070;
 }
 
-.right i{
+.right i {
     color: #707070;
     padding: 10px;
 }
@@ -296,27 +330,54 @@ footer {
 
 /* :::::: 768px :::::: */
 @media screen and (max-width: 768px) {
-    .card{
+    .card {
         width: calc(100% / 12 * 3);
     }
 }
 
 /* ::::: 576 :::::: */
 @media screen and (max-width: 576px) {
-    .card{
+    .card {
         width: 50%;
     }
 }
 
 /* ::::: 425 ::::: */
 @media screen and (max-width: 425px) {
-    .sidebar{
+    .sidebar {
         width: 50px;
     }
-    .card{
+
+    .card {
         width: 50%;
     }
-} 
+
+    .playlist {
+        display: none;
+    }
+
+    .menu a {
+        display: none;
+    }
+
+    .menu img, .app i, .john .user {
+        margin: auto;
+    }
+
+    .app span {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+    .john h4{
+        display: none;
+    }
+    .left-rx{
+        flex-direction: column;
+    }
+}
 
 /* 
 lg 1200
